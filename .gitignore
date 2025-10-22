@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Extension build artifacts
+dist/
+
+# local files
+*.local
+
+# Logs
+*.log
