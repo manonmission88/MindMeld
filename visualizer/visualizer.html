@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Research Map</title>
+    <link rel="stylesheet" href="visualizer.css">
+  </head>
+  <body>
+    <svg id="map-canvas"></svg>
+
+    <!-- Load D3 via external script to comply with extension CSP -->
+    <script src="d3-init.js"></script>
+    <script src="visualizer.js"></script>
+    <!-- Notes panel -->
+    <div id="notes-panel" class="hidden" aria-hidden="true">
+      <button id="notes-close" aria-label="Close">&times;</button>
+      <h3 id="notes-title">Notes</h3>
+      <textarea id="notes-textarea"></textarea>
+      <button id="notes-save-btn">Save Note</button>
+    </div>
+  </body>
+</html>

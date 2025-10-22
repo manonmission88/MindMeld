@@ -1,0 +1,12 @@
+html, body { height: 100%; margin: 0; }
+#map-canvas { width: 100vw; height: 100vh; display: block; background: #f8fafc; }
+circle { cursor: pointer; }
+text { pointer-events: none; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; }
+
+/* Notes panel */
+#notes-panel { position: fixed; top: 20px; right: 20px; width: 300px; background: #fff; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 15px; border-radius: 8px; z-index: 100; }
+#notes-panel #notes-close { position: absolute; top: 8px; right: 8px; background: transparent; border: none; font-size: 20px; cursor: pointer; }
+#notes-panel h3 { margin-top: 0; margin-bottom: 8px; }
+#notes-textarea { width: 100%; height: 150px; box-sizing: border-box; }
+#notes-save-btn { margin-top: 8px; padding: 8px 10px; cursor: pointer; }
+.hidden { display: none; }
